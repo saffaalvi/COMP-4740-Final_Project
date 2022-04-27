@@ -14,6 +14,6 @@ Extract train.zip and test1.zip into a dogs-vs-cats directory.
 - **dogs-vs-cats.ipynb** - a Jupyter notebook file that contains the outputs and some notes for our model
 - **model.py**- creates the Convolutional Neural Network (CNN) model that is used to predict the dog and cat images. 
 - **test.py** - makes predictions on the dogs-vs-cats/test1 dataset from the model previously created in model.py
-- **model.h5 and model.json** - saved CNN model (easier and quicker to load and use when testing)
+- **model.h5 and model.json** - saved CNN model without weights (easier and quicker to load and use when testing)
 - **labels.npy** - encoded classes/labels from dataset (cats and dogs) 
 - **requirements.txt, Pipfile, Piplock**: All the required packages and versions needed to run the program files.
